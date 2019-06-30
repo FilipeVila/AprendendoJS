@@ -4,9 +4,9 @@
 //Não Divisível por 3 e/ou 5 => Não FizzBuzz
 //Não é um número => 'Não é um número" 
 
-const resultado = (t);
-console.log(typeof resultado);
-/*
+const resultado = fizzBuzz(50);
+console.log(resultado);
+
 function fizzBuzz (entrada){
     if (typeof entrada !== 'number')
         return 'Não é um numero';
@@ -18,4 +18,3 @@ function fizzBuzz (entrada){
         return 'Buzz';
         return 'Não é um Número';
 }
-*/
