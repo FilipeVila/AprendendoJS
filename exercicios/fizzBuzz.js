@@ -16,5 +16,6 @@ function fizzBuzz (entrada){
         return 'Fizz';
     if (entrada % 5 === 0)
         return 'Buzz';
-        return 'Não é um Número';
+    
+        return entrada;
 }
